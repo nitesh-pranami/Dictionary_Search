@@ -2,7 +2,7 @@ import sys
 import time
 
 Dictionary = "/Users/charlie/Desktop/GTROPY/list.txt"; #Enter the directory address of the dictionary list
-wordQuery = input('Exact search: ')
+wordQuery = input('Keyword search: ')
 threshold = .2
 MAXCOST=int((len(wordQuery )*threshold)+.5)
 
